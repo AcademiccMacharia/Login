@@ -6,11 +6,6 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-/* :root{
-  --background: #2F3838;
-  --text: #fff;
-  --accent: rgb(189, 99, 26);
-} */
 .login.light {
   --background: white;
   --text: black;
@@ -72,6 +67,7 @@ span{
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: var(--background);
 }
 .form-container h4{
   margin-bottom: 40px;
@@ -104,7 +100,7 @@ form{
   border-radius: 6px;
   border: none;
   outline: none;
-  background-color: #2A2B2B;
+  background-color: var(--background);
   text-transform: uppercase;
   letter-spacing: 0.1cm;
   color: var(--text);
@@ -114,5 +110,5 @@ form{
   cursor: pointer;
 }
 .error{
-  color: rgb(170, 21, 21);
+  color: var(--accent);
 }
