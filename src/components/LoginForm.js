@@ -55,13 +55,13 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </form>
-          <button onClick={handleEmpty} type='submit'>
+          <button className="btn" onClick={handleEmpty} type='submit'>
             Login
           </button>
           <p>
             Don't have an account? <span>Sign up</span>
           </p>
-          <button onClick={toggleTheme}>Toggle Theme</button>
+          <button className="btn-e"onClick={toggleTheme}>Toggle Theme</button>
         </div>
       </div>
     </div>

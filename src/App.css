@@ -73,6 +73,7 @@ span{
   margin-bottom: 40px;
   font-size: 36px;
   font-weight: 300;
+  color: var(--text);
 }
 form{
   display: flex;
@@ -98,7 +99,7 @@ form{
   width: 350px;
   padding: 6px 12px;
   border-radius: 6px;
-  border: none;
+  border: 0.5px solid rgb(227, 219, 219);
   outline: none;
   background-color: var(--background);
   text-transform: uppercase;
@@ -111,4 +112,18 @@ form{
 }
 .error{
   color: var(--accent);
+}
+.btn-e{
+  width: 150px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: 0.5px solid rgb(227, 219, 219);
+  outline: none;
+  background-color: var(--background);
+  text-transform: uppercase;
+  letter-spacing: 0.1cm;
+  color: var(--text);
+}
+.btn-e:hover{
+  border: 1px solid var(--accent);
 }
